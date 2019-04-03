@@ -2,7 +2,7 @@
 include "connect.php";
 include "function.php";
 header('Content-Type: text/html; charset=utf-8');
-$botToken = "496185905:AAHQ4YinJLPfqSv-rggHFEKHkpl_LB1gybA";
+$botToken = "YOUR_BOT_TOKEN";
 $webSite = "https://api.telegram.org/bot" . $botToken;
 $update= file_get_contents("php://input");
 $arrayMessage= json_decode($update, true);
