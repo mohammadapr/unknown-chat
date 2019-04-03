@@ -1,8 +1,8 @@
 <?php
 $server="localhost";
-$user="zehbiz_admin";
-$pass="FP0UcLMnn5";
-$dbname="zehbiz_report";
+$user="";
+$pass="";
+$dbname="";
 
 $dsn="mysql:host=$server;dbname=$dbname";
 try{
